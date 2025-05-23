@@ -128,9 +128,9 @@ return (
       ))}
     </select>
     
+    {/* ne fonctionne pas pour l'instant probleme CORS */}
 
-    <input type="file" accept="image/*" onChange={(e) =>
-setImageFile(e.target.files[0])} />
+    <input type="file" accept="image/*" onChange={(e) => setImageFile(e.target.files[0])} />
 
     <button onClick={vote}>Voter</button>
 
